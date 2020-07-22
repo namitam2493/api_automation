@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="1" failed="0" ignored="0" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="46" started-at="2020-07-22T14:09:42 IST" finished-at="2020-07-22T14:09:42 IST">
+    <groups>
+      <group name="demo">
+        <method signature="TestCases_for_weather_api.verify_the_status_for_get_weather_by_city()[pri:0, instance:com.weather_api.Testcases.TestCases_for_weather_api@1f554b06]" name="verify_the_status_for_get_weather_by_city" class="com.weather_api.Testcases.TestCases_for_weather_api"/>
+      </group> <!-- demo -->
+    </groups>
+    <test name="Default test" duration-ms="46" started-at="2020-07-22T14:09:42 IST" finished-at="2020-07-22T14:09:42 IST">
+      <class name="com.weather_api.Testcases.TestCases_for_weather_api">
+        <test-method status="FAIL" signature="configure()[pri:0, instance:com.weather_api.Testcases.TestCases_for_weather_api@1f554b06]" name="configure" is-config="true" duration-ms="391" started-at="2020-07-22T14:09:42 IST" finished-at="2020-07-22T14:09:42 IST">
+          <exception class="java.lang.NoClassDefFoundError">
+            <message>
+              <![CDATA[io/restassured/mapper/factory/GsonObjectMapperFactory]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NoClassDefFoundError: io/restassured/mapper/factory/GsonObjectMapperFactory
+at io.restassured.config.RestAssuredConfig.<init>(RestAssuredConfig.java:41)
+at io.restassured.RestAssured.<clinit>(RestAssured.java:420)
+at com.weather_api.Testcases.TestCases_for_weather_api.configure(TestCases_for_weather_api.java:21)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:63)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:348)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:327)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.lang.ClassNotFoundException: io.restassured.mapper.factory.GsonObjectMapperFactory
+at java.net.URLClassLoader.findClass(Unknown Source)
+at java.lang.ClassLoader.loadClass(Unknown Source)
+at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+at java.lang.ClassLoader.loadClass(Unknown Source)
+... 22 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NoClassDefFoundError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configure -->
+        <test-method status="SKIP" signature="verify_the_status_for_get_weather_by_city()[pri:0, instance:com.weather_api.Testcases.TestCases_for_weather_api@1f554b06]" name="verify_the_status_for_get_weather_by_city" duration-ms="0" started-at="2020-07-22T14:09:42 IST" finished-at="2020-07-22T14:09:42 IST">
+          <exception class="java.lang.NoClassDefFoundError">
+            <message>
+              <![CDATA[io/restassured/mapper/factory/GsonObjectMapperFactory]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NoClassDefFoundError: io/restassured/mapper/factory/GsonObjectMapperFactory
+at io.restassured.config.RestAssuredConfig.<init>(RestAssuredConfig.java:41)
+at io.restassured.RestAssured.<clinit>(RestAssured.java:420)
+at com.weather_api.Testcases.TestCases_for_weather_api.configure(TestCases_for_weather_api.java:21)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:63)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:348)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:327)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.lang.ClassNotFoundException: io.restassured.mapper.factory.GsonObjectMapperFactory
+at java.net.URLClassLoader.findClass(Unknown Source)
+at java.lang.ClassLoader.loadClass(Unknown Source)
+at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+at java.lang.ClassLoader.loadClass(Unknown Source)
+... 22 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NoClassDefFoundError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_the_status_for_get_weather_by_city -->
+      </class> <!-- com.weather_api.Testcases.TestCases_for_weather_api -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
